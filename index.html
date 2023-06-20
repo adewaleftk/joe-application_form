@@ -1,163 +1,166 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Loan Application Form</title>
 </head>
 <body>
-    <h1>HALL FINANCE LLC</h1>
-    <p>EAGLES PARK ROAD, BIRMINGHAM</p>
-    <p>ALABAMA</p>
-    <p>hallfinancellc@gmail.com</p>
-    <p>Phone :+1(251) 415-5099</p>
-    <h2>APPLICATION FORM</h2>
-    <form action="submit_loan_form.php" method="POST">
-        <label for="first-name">First Name:</label>
-        <input type="text" id="first-name" name="first-name" required><br>
+    <div class="body-box">
+        <h2>HALL FINANCE LLC</h6>
+        <p>EAGLES PARK ROAD, BIRMINGHAM</p>
+        <p>ALABAMA</p>
+        <p>hallfinancellc@gmail.com</p>
+        <p>Phone :+1(251) 415-5099</p>
+        <h2>APPLICATION FORM</h2>
+        <form action="submit_loan_form.php" method="POST">
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name" required><br>
 
-        <label for="last-name">Last Name:</label>
-        <input type="text" id="last-name" name="last-name" required><br>
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" required><br>
 
-        <label>Gender:</label><br>
-        <input type="radio" id="male" name="gender" value="male" required>
-        <label for="male">Male</label><br>
-        <input type="radio" id="female" name="gender" value="female" required>
-        <label for="female">Female</label><br>
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label><br>
 
-        <label for="dob">Date of Birth:</label>
-        <input type="date" id="dob" name="dob" required><br>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br>
 
-        <label for="marital-status">Marital Status:</label>
-        <select id="marital-status" name="marital-status" required>
-            <option value="divorced">Divorced</option>
-            <option value="single">Single</option>
-            <option value="married">Married</option>
-        </select><br>
+            <label for="marital-status">Marital Status:</label>
+            <select id="marital-status" name="marital-status" required>
+                <option value="divorced">Divorced</option>
+                <option value="single">Single</option>
+                <option value="married">Married</option>
+            </select><br>
 
-        <label for="religion">Religion:</label>
-        <select id="religion" name="religion" required>
-            <option value="christian">Christian</option>
-            <option value="islam">Islam</option>
-            <option value="atheist">Atheist</option>
-            <option value="buddhist">Buddhist</option>
-            <option value="pagan">Pagan</option>
-            <option value="traditionalist">Traditionalist</option>
-            <option value="others">Others</option>
-        </select><br>
+            <label for="religion">Religion:</label>
+            <select id="religion" name="religion" required>
+                <option value="christian">Christian</option>
+                <option value="islam">Islam</option>
+                <option value="atheist">Atheist</option>
+                <option value="buddhist">Buddhist</option>
+                <option value="pagan">Pagan</option>
+                <option value="traditionalist">Traditionalist</option>
+                <option value="others">Others</option>
+            </select><br>
 
-        <label for="occupation">Occupation:</label>
-        <select id="occupation" name="occupation" required>
-            <option value="trader">Trader</option>
-            <option value="engineer">Engineer</option>
-            <option value="estate-developer">Estate Developer</option>
-        </select><br>
+            <label for="occupation">Occupation:</label>
+            <select id="occupation" name="occupation" required>
+                <option value="trader">Trader</option>
+                <option value="engineer">Engineer</option>
+                <option value="estate-developer">Estate Developer</option>
+            </select><br>
 
-        <label for="annual-income">Annual Income:</label>
-        <input type="number" id="annual-income" name="annual-income" required><br>
+            <label for="annual-income">Annual Income:</label>
+            <input type="number" id="annual-income" name="annual-income" required><br>
 
-        <label for="nationality">Nationality:</label>
-        <select id="nationality" name="nationality" required>
-            <option value="nigeria">Nigeria</option>
-            <option value="usa">United States of America</option>
-            <option value="uk">United Kingdom</option>
-        </select><br>
+            <label for="nationality">Nationality:</label>
+            <select id="nationality" name="nationality" required>
+                <option value="nigeria">Nigeria</option>
+                <option value="usa">United States of America</option>
+                <option value="uk">United Kingdom</option>
+            </select><br>
 
-        <label for="state">State/Province:</label>
-        <input type="text" id="state" name="state" required><br>
+            <label for="state">State/Province:</label>
+            <input type="text" id="state" name="state" required><br>
 
-        <label for="city">City:</label>
-        <input type="text" id="city" name="city" required><br>
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" required><br>
 
-        <label for="zip-code">ZIP Code:</label>
-        <input type="text" id="zip-code" name="zip-code" required><br>
+            <label for="zip-code">ZIP Code:</label>
+            <input type="text" id="zip-code" name="zip-code" required><br>
 
-        <label for="residential-address">Residential Address:</label>
-        <textarea id="residential-address" name="residential-address" required></textarea><br>
+            <label for="residential-address">Residential Address:</label>
+            <textarea id="residential-address" name="residential-address" required></textarea><br>
 
-        <label for="address-duration">Have you lived at the above address for 3 or more years?</label><br>
-        <input type="radio" id="yes" name="address-duration" value="yes" required>
-        <label for="yes">Yes</label><br>
-        <input type="radio" id="no" name="address-duration" value="no" required>
-        <label for="no">No</label><br>
+            <label for="address-duration">Have you lived at the above address for 3 or more years?</label><br>
+            <input type="radio" id="yes" name="address-duration" value="yes" required>
+            <label for="yes">Yes</label><br>
+            <input type="radio" id="no" name="address-duration" value="no" required>
+            <label for="no">No</label><br>
 
-        <label for="employment-status">Employment Status:</label>
-        <select id="employment-status" name="employment-status" required>
-            <option value="employed">Employed</option>
-            <option value="self-employed">Self Employed</option>
-            <option value="unemployed">Unemployed</option>
-        </select><br>
+            <label for="employment-status">Employment Status:</label>
+            <select id="employment-status" name="employment-status" required>
+                <option value="employed">Employed</option>
+                <option value="self-employed">Self Employed</option>
+                <option value="unemployed">Unemployed</option>
+            </select><br>
 
-        <label for="mobile-number">Mobile Number:</label>
-        <input type="tel" id="mobile-number" name="mobile-number" required><br>
+            <label for="mobile-number">Mobile Number:</label>
+            <input type="tel" id="mobile-number" name="mobile-number" required><br>
 
-        <label for="fax-number">Fax Number:</label>
-        <input type="tel" id="fax-number" name="fax-number"><br>
+            <label for="fax-number">Fax Number:</label>
+            <input type="tel" id="fax-number" name="fax-number"><br>
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
 
-        <label for="other-number">Other Number:</label>
-        <input type="tel" id="other-number" name="other-number"><br>
+            <label for="other-number">Other Number:</label>
+            <input type="tel" id="other-number" name="other-number"><br>
 
-        <label for="loan-amount">Loan Amount Needed:</label>
-        <input type="number" id="loan-amount" name="loan-amount" required><br>
+            <label for="loan-amount">Loan Amount Needed:</label>
+            <input type="number" id="loan-amount" name="loan-amount" required><br>
 
-        <label for="loan-purpose">Purpose of the Loan:</label>
-        <textarea id="loan-purpose" name="loan-purpose" required></textarea><br>
+            <label for="loan-purpose">Purpose of the Loan:</label>
+            <textarea id="loan-purpose" name="loan-purpose" required></textarea><br>
 
-        <label for="loan-duration">Loan Duration:</label>
-        <input type="text" id="loan-duration" name="loan-duration" required><br>
+            <label for="loan-duration">Loan Duration:</label>
+            <input type="text" id="loan-duration" name="loan-duration" required><br>
 
-        <label for="company-name">Company Name (if any):</label>
-        <input type="text" id="company-name" name="company-name"><br>
+            <label for="company-name">Company Name (if any):</label>
+            <input type="text" id="company-name" name="company-name"><br>
 
-        <label for="company-address">Company Address:</label>
-        <textarea id="company-address" name="company-address"></textarea><br>
+            <label for="company-address">Company Address:</label>
+            <textarea id="company-address" name="company-address"></textarea><br>
 
-        <label for="company-mobile-number">Company's Mobile Number:</label>
-        <input type="tel" id="company-mobile-number" name="company-mobile-number"><br>
+            <label for="company-mobile-number">Company's Mobile Number:</label>
+            <input type="tel" id="company-mobile-number" name="company-mobile-number"><br>
 
-        <h2>Guarantor / References:</h2>
+            <h2>Guarantor / References:</h2>
 
-        <h3>1. Fullname</h3>
-        <label for="guarantor1-fullname">Full Name:</label>
-        <input type="text" id="guarantor1-fullname" name="guarantor1-fullname" required><br>
+            <h3>1. Fullname</h3>
+            <label for="guarantor1-fullname">Full Name:</label>
+            <input type="text" id="guarantor1-fullname" name="guarantor1-fullname" required><br>
 
-        <label for="guarantor1-mobile-number">Mobile Number:</label>
-        <input type="tel" id="guarantor1-mobile-number" name="guarantor1-mobile-number" required><br>
+            <label for="guarantor1-mobile-number">Mobile Number:</label>
+            <input type="tel" id="guarantor1-mobile-number" name="guarantor1-mobile-number" required><br>
 
-        <label for="guarantor1-email">Email:</label>
-        <input type="email" id="guarantor1-email" name="guarantor1-email" required><br>
+            <label for="guarantor1-email">Email:</label>
+            <input type="email" id="guarantor1-email" name="guarantor1-email" required><br>
 
-        <label for="guarantor1-relationship">Relationship with borrower:</label>
-        <input type="text" id="guarantor1-relationship" name="guarantor1-relationship" required><br>
+            <label for="guarantor1-relationship">Relationship with borrower:</label>
+            <input type="text" id="guarantor1-relationship" name="guarantor1-relationship" required><br>
 
-        <h3>2. Fullname</h3>
-        <label for="guarantor2-fullname">Full Name:</label>
-        <input type="text" id="guarantor2-fullname" name="guarantor2-fullname" required><br>
+            <h3>2. Fullname</h3>
+            <label for="guarantor2-fullname">Full Name:</label>
+            <input type="text" id="guarantor2-fullname" name="guarantor2-fullname" required><br>
 
-        <label for="guarantor2-mobile-number">Mobile Number:</label>
-        <input type="tel" id="guarantor2-mobile-number" name="guarantor2-mobile-number" required><br>
+            <label for="guarantor2-mobile-number">Mobile Number:</label>
+            <input type="tel" id="guarantor2-mobile-number" name="guarantor2-mobile-number" required><br>
 
-        <label for="guarantor2-email">Email:</label>
-        <input type="email" id="guarantor2-email" name="guarantor2-email" required><br>
+            <label for="guarantor2-email">Email:</label>
+            <input type="email" id="guarantor2-email" name="guarantor2-email" required><br>
 
-        <label for="guarantor2-relationship">Relationship with borrower:</label>
-        <input type="text" id="guarantor2-relationship" name="guarantor2-relationship" required><br>
+            <label for="guarantor2-relationship">Relationship with borrower:</label>
+            <input type="text" id="guarantor2-relationship" name="guarantor2-relationship" required><br>
 
-        <h2>SIGNATURE & DATE:</h2>
-        <p>I, [your name] hereby declare that the information contained herein is complete and accurate. And that any false information will disqualify me from the application process. This information has been furnished with the understanding that it is to be used to determine the amount and conditions of the loan to be extended. Furthermore, I hereby authorize the financial institutions listed in this loan application form to release necessary information to the company for which the loan is being applied for in order to verify the information contained therein.</p>
-        <label for="signature">Signature:</label>
-        <input type="text" id="signature" name="signature" required><br>
+            <h2>SIGNATURE & DATE:</h2>
+            <p>I, [your name] hereby declare that the information contained herein is complete and accurate. And that any false information will disqualify me from the application process. This information has been furnished with the understanding that it is to be used to determine the amount and conditions of the loan to be extended. Furthermore, I hereby authorize the financial institutions listed in this loan application form to release necessary information to the company for which the loan is being applied for in order to verify the information contained therein.</p>
+            <label for="signature">Signature:</label>
+            <input type="text" id="signature" name="signature" required><br>
 
-        <label for="date">Date:</label>
-        <input type="date" id="date" name="date" required><br>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required><br>
 
-        <h2>Upload your Signature</h2>
-        <label for="signature-file"></label>
-        <input type="file" id="signature-file" name="signature-file" accept="image/png, image/jpeg" required><br>
-        <p>Borrower&apos;s Signature /Date</p>
+            <h2>Upload your Signature</h2>
+            <label for="signature-file"></label>
+            <input type="file" id="signature-file" name="signature-file" accept="image/png, image/jpeg" required><br>
+            <p>Borrower&apos;s Signature /Date</p>
 
-        <input type="submit" value="Request">
-    </form>
+            <input type="submit" value="Request">
+        </form>
+    </div>
 </body>
 </html>
