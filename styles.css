@@ -3,11 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-  
-
-.body-box {
-    background-color: #ffffff;
-}
 
 body {
     font-family: Arial, sans-serif;
@@ -16,12 +11,28 @@ body {
     padding: 20px;
 }
 
+.body-box {
+    background-color: #ffffff;
+}
+
+.form-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.application-form {
+    background-color: rgb(212, 242, 253);
+    width: 70%;
+}
+
 h1, h2, h3 {
     color: #333;
 }
 
 label {
-    display: block;
+    
     margin-top: 10px;
 }
 
@@ -31,13 +42,17 @@ input, select, textarea {
     margin-top: 5px;
 }
 
+input[type="radio"] {
+    width:10%;
+}
+
 input[type="submit"] {
-    background-color: #4CAF50;
+    background-color: #4c77af;
     color: white;
     padding: 10px 15px;
     border: none;
     cursor: pointer;
     margin-top: 20px;
+    width: 50%;
 }
 
-/* Add more styles as needed */

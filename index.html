@@ -6,12 +6,14 @@
 </head>
 <body>
     <div class="body-box">
-        <h2>HALL FINANCE LLC</h6>
-        <p>EAGLES PARK ROAD, BIRMINGHAM</p>
-        <p>ALABAMA</p>
-        <p>hallfinancellc@gmail.com</p>
-        <p>Phone :+1(251) 415-5099</p>
-        <h2>APPLICATION FORM</h2>
+        <div class="form-heading">
+            <h2>HALL FINANCE LLC</h6>
+            <p>EAGLES PARK ROAD, BIRMINGHAM</p>
+            <p>ALABAMA</p>
+            <p>hallfinancellc@gmail.com</p>
+            <p>Phone :+1(251) 415-5099</p>
+        </div>
+            <h2 class="application-form">APPLICATION FORM</h2>
         <form action="submit_loan_form.php" method="POST">
             <label for="first-name">First Name:</label>
             <input type="text" id="first-name" name="first-name" required><br>
@@ -19,11 +21,11 @@
             <label for="last-name">Last Name:</label>
             <input type="text" id="last-name" name="last-name" required><br>
 
-            <label>Gender:</label><br>
-            <input type="radio" id="male" name="gender" value="male" required>
+            <div class="gender"><label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male" class="male" required>
             <label for="male">Male</label><br>
             <input type="radio" id="female" name="gender" value="female" required>
-            <label for="female">Female</label><br>
+            <label for="female">Female</label><br></div>
 
             <label for="dob">Date of Birth:</label>
             <input type="date" id="dob" name="dob" required><br>
@@ -148,12 +150,7 @@
 
             <h2>SIGNATURE & DATE:</h2>
             <p>I, [your name] hereby declare that the information contained herein is complete and accurate. And that any false information will disqualify me from the application process. This information has been furnished with the understanding that it is to be used to determine the amount and conditions of the loan to be extended. Furthermore, I hereby authorize the financial institutions listed in this loan application form to release necessary information to the company for which the loan is being applied for in order to verify the information contained therein.</p>
-            <label for="signature">Signature:</label>
-            <input type="text" id="signature" name="signature" required><br>
-
-            <label for="date">Date:</label>
-            <input type="date" id="date" name="date" required><br>
-
+            
             <h2>Upload your Signature</h2>
             <label for="signature-file"></label>
             <input type="file" id="signature-file" name="signature-file" accept="image/png, image/jpeg" required><br>
