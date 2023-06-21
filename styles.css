@@ -20,12 +20,24 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    height: 150px;
+}
+
+.lender-name {
+    color: #0d6efd;
 }
 
 .application-form {
     background-color: rgb(212, 242, 253);
+    box-shadow: 0px 5px 5px rgba(0,0,0,.15);
     width: 70%;
-    text-align: center;
+    margin-top: 20px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1, h2, h3 {
