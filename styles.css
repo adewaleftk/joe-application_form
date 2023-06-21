@@ -25,6 +25,7 @@ body {
 .application-form {
     background-color: rgb(212, 242, 253);
     width: 70%;
+    text-align: center;
 }
 
 h1, h2, h3 {
@@ -43,7 +44,7 @@ input, select, textarea {
 }
 
 input[type="radio"] {
-    width:10%;
+    width:5%;
 }
 
 input[type="submit"] {
